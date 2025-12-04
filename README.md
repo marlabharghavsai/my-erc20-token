@@ -39,11 +39,22 @@ It includes all core ERC-20 functionalities such as transfers, approvals, allowa
 8. Select **JavaScript VM (London)** as the environment  
 9. Enter the initial supply in the constructor:
 
+## 🔁 Transfer Tokens
 - transfer(address to, uint256 amount) → returns bool
+
+## ✅ Approve Spending
 - approve(address spender, uint256 amount) → returns bool
+
+## 🔄 Transfer on Behalf (Using Allowance)
 - transferFrom(address from, address to, uint256 amount) → returns bool
+
+## 📊 Check Allowance
 - allowance(address owner, address spender) → returns uint256
+
+## 📦 Get Total Supply (Helper Function)
 - getTotalSupply() → returns uint256
+
+## 🧾 Get Token Information (Helper Function)
 - getTokenInfo() → returns (string, string, uint8, uint256)
 
 
