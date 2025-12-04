@@ -37,4 +37,13 @@ It includes all core ERC-20 functionalities such as transfers, approvals, allowa
 6. Click **Compile MyToken.sol**  
 7. Go to the **Deploy & Run Transactions** tab  
 8. Select **JavaScript VM (London)** as the environment  
-9. Enter the initial supply in the constructor:  
+9. Enter the initial supply in the constructor:
+
+- transfer(address to, uint256 amount) → returns bool
+- approve(address spender, uint256 amount) → returns bool
+- transferFrom(address from, address to, uint256 amount) → returns bool
+- allowance(address owner, address spender) → returns uint256
+- getTotalSupply() → returns uint256
+- getTokenInfo() → returns (string, string, uint8, uint256)
+
+
